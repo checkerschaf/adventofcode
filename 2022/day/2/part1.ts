@@ -1,3 +1,4 @@
+// Description: https://adventofcode.com/2020/day/2
 const input = await Deno.readTextFile("input.txt");
 
 type RockPaperScissors = "rock" | "paper" | "scissors";

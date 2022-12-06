@@ -1,3 +1,4 @@
+// Description: https://adventofcode.com/2020/day/3
 const input = await Deno.readTextFile("input.txt");
 
 const rucksacks = input.split("\n");

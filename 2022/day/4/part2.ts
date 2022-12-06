@@ -1,3 +1,4 @@
+// Description: https://adventofcode.com/2020/day/4
 const input = await Deno.readTextFile("input.txt");
 
 const elfPairs = input.split("\n").map((line) => line.split(","));
