@@ -1,5 +1,5 @@
 // Description: https://adventofcode.com/2020/day/1
-const input = await Deno.readTextFile("input.txt");
+const input = await Deno.readTextFile("./input.txt");
 
 const elves = input.split("\n\n");
 const elvesWithCalories = elves.map((elf) => {

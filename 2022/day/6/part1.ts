@@ -6,8 +6,9 @@ const areAllDifferent = (arr: string) => {
   return set.size === arr.length;
 };
 
-for (let i = 4; i < input.length; i += 1) {
-  const fourChars = input.slice(i - 4, i);
+const size = 4;
+for (let i = size; i < input.length; i++) {
+  const fourChars = input.slice(i - size, i);
   if (areAllDifferent(fourChars)) {
     console.log(i);
     break;

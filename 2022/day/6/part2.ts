@@ -7,7 +7,7 @@ const areAllDifferent = (arr: string) => {
 };
 
 const size = 14;
-for (let i = size; i < input.length; i += 1) {
+for (let i = size; i < input.length; i++) {
   const fourChars = input.slice(i - size, i);
   if (areAllDifferent(fourChars)) {
     console.log(i);
